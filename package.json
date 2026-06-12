@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "node esbuild.config.mjs",
-    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "release": "npm run build && mkdir -p obsidian-notebooklm && cp main.js manifest.json styles.css obsidian-notebooklm/ && zip -r obsidian-notebooklm.zip obsidian-notebooklm && rm -rf obsidian-notebooklm"
   },
   "keywords": [
     "obsidian",
