@@ -1,6 +1,6 @@
 {
   "id": "notebooklm",
-  "name": "Obsidian NotebookLM",
+  "name": "NotebookLM",
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "NotebookLM experience inside Obsidian. Ground your AI assistant in notes, chat, summarize, and generate audio briefs.",
