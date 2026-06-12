@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-notebooklm",
+  "name": "Obsidian NotebookLM",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "NotebookLM experience inside Obsidian. Ground your AI assistant in notes, chat, summarize, and generate audio briefs.",
+  "author": "Antigravity",
+  "authorUrl": "https://github.com/google-deepmind",
+  "isDesktopOnly": false
+}

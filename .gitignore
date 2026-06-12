@@ -1,0 +1,4 @@
+node_modules/
+open-notebook/
+dist/
+.DS_Store
